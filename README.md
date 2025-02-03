@@ -82,5 +82,5 @@ ORDER BY COUNT(*);
 ```
 11. Create an Index on Last Name for Optimized Searches
 ```sql
-CREATE INDEX idx_emp_last_name ON EmployeeInfo(EmpLname);
+CREATE INDEX idx_dep_name ON EmployeeInfo(Department);
 ```
